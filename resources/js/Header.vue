@@ -1,5 +1,5 @@
 <template>
-
+<MDBBtn color="primary">Primary</MDBBtn>
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -10,7 +10,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">My Library</a>
+      <a class="navbar-brand" href="/orderplace">My Library</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -34,9 +34,9 @@
       </ul>
       <form action ="/search" class="navbar-form navbar-left">
         <div class="form-group">
-          <input type="text" name="query" class="form-control" placeholder="Search">
+          <input type="text" name="query" class="w-75 p-3"  placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="submit" class="btn btn-default"  >Submit</button>
       </form>
       <!--<ul class="nav navbar-nav navbar-right">
         <li><a href="#">Link</a></li>
@@ -67,5 +67,8 @@ export default {
     }
   }
 }
+
+
+
 </script>
 

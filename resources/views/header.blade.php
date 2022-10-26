@@ -34,22 +34,30 @@ if(Session::has('user'))
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+<img class="mynature" src="https://cdn.pixabay.com/photo/2016/07/30/19/47/banner-1557834__340.jpg">
 <!--<ul>
-<auth-details :auth-name="{{Session::get('user')['name']}}">
+<img src="https://cdn.pixabay.com/photo/2016/07/30/19/47/banner-1557834__340.jpg">
 <li><a href=#>Library Name</a></li>
 <li><a href="/myorders">Borrowed Books</a></li>
 <li><a href="/cartlist">Cart ({{$total}})</a></li>-->
 
 
-<div id="appthree"></div>
+
+
+
+
+
+
+
+
+</div>
 
 @if(Session::has('user'))
 <li>
-    <a>{{Session::get('user')['name']}}
+    <a class="list-group-item list-group-item-action list-group-item-primary">{{Session::get('user')['name']}}
     <span></span></a>
 <ul>
-<li><a href="/logout">Logout</a></li>
+<li><a class="link-info" href="/logout">Logout</a></li>
 
 </ul>
 </li>

@@ -12,6 +12,8 @@
     <title>Library Project</title>
 </head>
 <body>
+
+
 {{View::make('header')}}
 @yield('content')
 {{View::make('footer')}}
@@ -53,6 +55,11 @@
 
     .mycart{
         float:left;
+    }
+
+    .mynature{
+        width:100%;
+        height:300px;
     }
 </style>
 
