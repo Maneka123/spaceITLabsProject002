@@ -14,6 +14,7 @@ class ProductController extends Controller
     function index()
     {
         $data=Book::all();
+        //$data=Book::paginate(3);
         return view('product',['products'=>$data]);
     }
 
